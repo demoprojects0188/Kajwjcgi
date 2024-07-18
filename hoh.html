@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>ACF YouTube Complete SEO Batch</title>
+    <style>
+        body {
+            background-color: #0d0d0d;
+            font-family: 'Courier New', Courier, monospace;
+            color: #00ff00;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .content-container {
+            text-align: center;
+            width: 100%;
+            max-width: 1000px; /* Limit maximum width */
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .main-heading {
+            margin: 20px 0;
+            animation: fadeIn 2s ease;
+            font-size: 2em; /* Adjust font size for better visibility */
+        }
+
+        .sub-heading {
+            margin: 10px 0;
+            font-size: 1.2em; /* Adjust font size */
+        }
+
+        .sub-heading a {
+            color: #00ff00;
+            text-decoration: none;
+        }
+
+        .sub-heading a:hover {
+            text-decoration: underline;
+        }
+
+        .courses {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .course-box {
+            background: rgba(0, 0, 0, 0.8);
+            border: 1px solid #00ff00;
+            box-shadow: 0 0 10px #00ff00;
+            width: 100%;
+            max-width: 200px; /* Set maximum width */
+            height: auto; /* Auto adjust height */
+            margin: 10px;
+            padding: 15px;
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.5s ease;
+            animation: fadeIn 2s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            box-sizing: border-box;
+        }
+
+        .course-box button {
+            background: #00ff00;
+            border: none;
+            color: #0d0d0d;
+            padding: 10px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+            font-size: 0.9em; /* Adjust font size */
+        }
+
+        .course-box button:hover {
+            background: #00cc00;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .course-box:nth-child(odd) {
+            animation: slideInLeft 1s ease;
+        }
+
+        .course-box:nth-child(even) {
+            animation: slideInRight 1s ease;
+        }
+
+        @keyframes slideInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-100%);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes slideInRight {
+            from {
+                opacity: 0;
+                transform: translateX(100%);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        /* Disable text selection */
+        body {
+            user-select: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 600px) {
+            .main-heading {
+                font-size: 1.5em; /* Adjust for smaller screens */
+            }
+
+            .sub-heading {
+                font-size: 1em; /* Adjust for smaller screens */
+            }
+
+            .course-box {
+                max-width: 90%; /* Adjust box width */
+                width: 100%;
+                height: auto; /* Adjust box height */
+            }
+
+            .course-box button {
+                padding: 8px;
+                font-size: 0.8em; /* Adjust button size */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="content-container">
+        <h1 class="main-heading">ACF YOUTUBE COMPLETE SEO BATCH</h1>
+        <h2 class="sub-heading">Mentor: EBEE BHAI</h2>
+        <h2 class="sub-heading">Contact: <a href="https://telegram.com/itzsaho" target="_blank">https://telegram.com/itzsaho</a></h2>
+        
+        <div class="courses">
+            <div class="course-box" onclick="goToVideo(1)">Introduction To Youtube SEO<br><button>Go To Video</button></div>
+            <div class="course-box" onclick="goToVideo(2)">How Big Youtubers Do-It<br><button>Go To Video</button></div>
+            <div class="course-box" onclick="goToVideo(3)">Setting Up Your Account<br><button>Go To Video</button></div>
+            <div class="course-box" onclick="goToVideo(4)">The Top-5 Results Theory<br><button>Go To Video</button></div>
+            <div class="course-box" onclick="goToVideo(5)">Why Youtube Should Rank You<br><button>Go To Video</button></div>
+            <div class="course-box" onclick="goToVideo(6)">Keyword Research (Practical)<br><button>Go To Video</button></div>
+            <div class="course-box" onclick="goToVideo(7)">Preparing A Blasting Description<br><button>Go To Video</button></div>
+            <div class="course-box" onclick="goToVideo(8)">Uploading Video With All Settings<br><button>Go To Video</button></div>
+            <div class="course-box" onclick="goToVideo(9)">The Traffic Funda<br><button>Go To Video</button></div>
+            <div class="course-box" onclick="goToVideo(10)">Last Day With World Best Information<br><button>Go To Video</button></div>
+        </div>
+    </div>
+    <script>
+        function goToVideo(courseNumber) {
+            window.location.href = courseNumber + '.html';
+        }
+    </script>
+</body>
+</html>

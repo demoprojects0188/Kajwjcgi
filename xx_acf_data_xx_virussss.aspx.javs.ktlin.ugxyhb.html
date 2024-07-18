@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuristic Database</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #111; /* Dark background */
+            color: #fff; /* Light text */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .search-container {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .search-container input[type=text] {
+            padding: 10px;
+            width: 90%;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-right: 5px;
+        }
+
+        .entries {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .entry {
+            background-color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .entry table {
+            width: 100%;
+        }
+
+        .entry table th {
+            font-size: 20px;
+            padding: 10px 0;
+            border-bottom: 2px solid #555;
+        }
+
+        .entry table td {
+            padding: 8px 0;
+        }
+
+        .entry table tr:nth-child(even) {
+            background-color: #444;
+        }
+
+        .entry table tr:hover {
+            background-color: #555;
+        }
+  
+         .h1 {
+            text-align: center;
+            font-size: 18px;
+            color: #999;
+            margin-top: 20px;
+        }
+
+        .no-results {
+            text-align: center;
+            font-size: 18px;
+            color: #999;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+  <h1>ACF SEO BATCH DATA</h1>
+    <div class="container">
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search...">
+        </div>
+        <div class="entries" id="entries">
+            <div class="entry" data-name="John Doe">
+                <table>
+                    <tr>
+                          </tr>
+                    <tr>
+                        <td>Name:</td>
+                        <td>Huzaifa</td>
+                    </tr>
+                    <tr>
+                        <td>Number:</td>
+                        <td>03337656487</td>
+                    </tr>
+                    <tr>
+                        <td>Unique Code:</td>
+                        <td>HWKR82MW92</td>
+                    </tr>
+                    <tr>
+                        <td>Username</td>
+                        <td>HWKR82MW92</td>
+                    </tr>
+                    <tr>
+                        <td>Password:</td>
+                        <td>hoh101hoh</td>
+                    </tr>   
+                </table>
+            </div>
+            <div class="entry" data-name="Mubashir">
+                <table>
+                    <tr>
+                    </tr>
+                    <tr>
+                        <td>Name:</td>
+                        <td>Mubashir</td>
+                    </tr>
+                    <tr>
+                        <td>Number:</td>
+                        <td>03336062484</td>
+                    </tr>
+                    <tr>
+                        <td>Unique Code:</td>
+                        <td>KPW728GBKO</td>
+                    </tr>
+                    <tr>
+                        <td>Username</td>
+                        <td>KPW728GBKO</td>
+                    </tr>
+                    <tr>
+                        <td>Password:</td>
+                        <td>uwn082jwn</td>
+                    </tr>
+                </table>
+            </div>
+          <div class="entry" data-name="Mubashir">
+                <table>
+                    <tr>
+                    </tr>
+                    <tr>
+                        <td>Name:</td>
+                        <td>Moazam</td>
+                    </tr>
+                    <tr>
+                        <td>Number:</td>
+                        <td>03093544162</td>
+                    </tr>
+                    <tr>
+                        <td>Unique Code:</td>
+                        <TD>PEBN829MWO</TD>
+                    </tr>
+                    <tr>
+                        <td>Username</td>
+                        <td>PEBN829MWO</td>
+                    </tr>
+                    <tr>
+                        <td>Password:</td>
+                        <td>owo289jwn</td>
+                    </tr>
+                </table>
+            </div>
+          <div class="entry" data-name="Mubashir">
+                <table>
+                    <tr>
+                    </tr>
+                    <tr>
+                        <td>Name:</td>
+                        <td>Sarfaraz</td>
+                    </tr>
+                    <tr>
+                        <td>Number:</td>
+                        <td>03124702042</td>
+                    </tr>
+                    <tr>
+                        <td>Unique Code:</td>
+                        <TD>IGSINDH018</TD>
+                    </tr>
+                    <tr>
+                        <td>Username</td>
+                        <td>IGSINDH018</td>
+                    </tr>
+                    <tr>
+                        <td>Password:</td>
+                        <td>ubcfh679fg</td>
+                    </tr>
+                </table>
+            </div>
+          <div class="entry" data-name="Mubashir">
+                <table>
+                    <tr>
+                    </tr>
+                    <tr>
+                        <td>Name:</td>
+                        <td>Muneeb</td>
+                    </tr>
+                    <tr>
+                        <td>Number:</td>
+                        <td>03217336190</td>
+                    </tr>
+                    <tr>
+                        <td>Unique Code:</td>
+                        <TD>MOWNG929HW</TD>
+                    </tr>
+                    <tr>
+                        <td>Username</td>
+                        <td>MOWNG929HW</td>
+                    </tr>
+                    <tr>
+                        <td>Password:</td>
+                        <td>kwkw829bwb</td>
+                    </tr>
+                </table>
+            </div>
+          <div class="entry" data-name="Mubashir">
+                <table>
+                    <tr>
+                    </tr>
+                    <tr>
+                        <td>Name:</td>
+                        <td>Salman</td>
+                    </tr>
+                    <tr>
+                        <td>Number:</td>
+                        <td>03004378236</td>
+                    </tr>
+                    <tr>
+                        <td>Unique Code:</td>
+                        <TD>KOW200BWNZ</TD>
+                    </tr>
+                    <tr>
+                        <td>Username</td>
+                        <td>KOW200BWNZ</td>
+                    </tr>
+                    <tr>
+                        <td>Password:</td>
+                        <td>pwm199nns</td>
+                    </tr>
+                </table>
+            </div>
+            <!-- Repeat the .entry structure for each database entry -->
+        </div>
+        <div id="noResults" class="no-results" style="display: none;">
+            No Results Found
+        </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const searchInput = document.getElementById('searchInput');
+            const entries = document.querySelectorAll('.entry');
+            const noResults = document.getElementById('noResults');
+
+            searchInput.addEventListener('input', function() {
+                const searchTerm = searchInput.value.toLowerCase();
+                let hasResults = false;
+
+                entries.forEach(entry => {
+                    const entryText = entry.innerText.toLowerCase();
+                    if (entryText.includes(searchTerm)) {
+                        entry.style.display = 'block';
+                        hasResults = true;
+                    } else {
+                        entry.style.display = 'none';
+                    }
+                });
+
+                noResults.style.display = hasResults ? 'none' : 'block';
+            });
+        });
+    </script>
+</body>
+</html>
